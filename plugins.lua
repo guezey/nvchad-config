@@ -22,7 +22,7 @@ local plugins = {
         "html-lsp",
         "prettier",
         "stylua",
-        "phpactor",
+        "pyright",
       },
     },
   },
@@ -38,11 +38,11 @@ local plugins = {
         -- web dev 
         "html",
         "css",
-        "php",
         "javascript",
         "typescript",
         "tsx",
         "json",
+        "python",
 
        -- low level
         "c",
