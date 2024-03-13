@@ -13,6 +13,11 @@ local plugins = {
     end, -- Override to setup mason-lspconfig
   },
 
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
+
   -- override plugin configs
   {
     "williamboman/mason.nvim",
