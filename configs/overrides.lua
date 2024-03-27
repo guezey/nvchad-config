@@ -93,7 +93,7 @@ M.nvimtree = {
 
     custom = {
       "node_modules",
-      ".git",
+      "^.git$",
     }
   },
 }
