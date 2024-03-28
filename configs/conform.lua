@@ -5,12 +5,12 @@ local options = {
 	formatters_by_ft = {
 		lua = { "stylua" },
     php = { "pretty-php" },
-
+    python = { "pyproject-flake8", "black" },
 		javascript = { "prettier" },
 		css = { "prettier" },
 		html = { "prettier" },
-
 		sh = { "shfmt" },
+    markdown = { "prettier" },
 	},
 
   -- adding same formatter for multiple filetypes can look too much work for some
