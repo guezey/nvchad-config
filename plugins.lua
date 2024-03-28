@@ -18,6 +18,17 @@ local plugins = {
     lazy = false,
   },
 
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {
+      highlight = {
+        multiline = false,
+      },
+    },
+    lazy = false,
+  },
+
   -- override plugin configs
   {
     "williamboman/mason.nvim",
@@ -28,6 +39,8 @@ local plugins = {
         "prettier",
         "stylua",
         "pyright",
+        "pyproject-flake8",
+        "black",
       },
     },
   },
