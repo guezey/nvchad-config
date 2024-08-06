@@ -5,11 +5,10 @@
 local M = {}
 
 M.ui = {
-  theme = "onedark",
+  theme = "bearded-arc",
 
   hl_override = {
     Comment = { italic = true },
-    ["@comment"] = { italic = true },
   },
 }
 
